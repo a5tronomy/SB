@@ -1,0 +1,45 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "ESBUISettingSliderType.generated.h"
+
+UENUM()
+enum class ESBUISettingSliderType {
+    None,
+    Display_Gamma,
+    Display_HDRBrightness,
+    Display_HDRContrast,
+    Display_HDRClampMin,
+    Display_HDRClampMax,
+    Display_HDRAdditionalMinLuminance,
+    Display_HDRAdditionalMaxLuminance,
+    Display_HDRUILevel,
+    Display_GraphicSharpen,
+    Display_GraphicSharpen_DLSS,
+    Display_GraphicSharpen_FSR3,
+    Display_GraphicResolutionScale,
+    Display_GraphicCharacterViewDistance,
+    Display_GraphicEnviromentObjectViewDistance,
+    Sound_MasterVolume,
+    Sound_BGMVolume,
+    Sound_DialogVolume,
+    Sound_SEVolume,
+    Accessibility_MotionBlurScale,
+    Accessibility_ColorBlindScale,
+    Accessibility_ItemEquipHold,
+    CameraNormalSensitivity_Horizental,
+    CameraNormalSensitivity_Vertical,
+    CameraTPSSensitivity_Horizental,
+    CameraTPSSensitivity_Vertical,
+    Control_TPSAimSlowDownAdditiveScale,
+    Control_TPSAimSlowDownAdditiveScale_Mouse,
+    Control_HapticScale,
+    Control_ControllerSpeakerVolume,
+    Control_LockOnMoveSensitivity,
+    CameraShake_IntensityScale,
+    MouseCameraNormalSensitivity_Horizental,
+    MouseCameraNormalSensitivity_Vertical,
+    MouseCameraTPSSensitivity_Horizental,
+    MouseCameraTPSSensitivity_Vertical,
+    Num,
+};
+

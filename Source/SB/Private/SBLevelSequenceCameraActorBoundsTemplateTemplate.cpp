@@ -1,0 +1,5 @@
+#include "SBLevelSequenceCameraActorBoundsTemplateTemplate.h"
+
+FSBLevelSequenceCameraActorBoundsTemplateTemplate::FSBLevelSequenceCameraActorBoundsTemplateTemplate() {
+}
+

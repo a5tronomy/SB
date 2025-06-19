@@ -1,0 +1,5 @@
+#include "SBLevelSequenceSkeletalAnimMoveStateSectionTemplateParameters.h"
+
+FSBLevelSequenceSkeletalAnimMoveStateSectionTemplateParameters::FSBLevelSequenceSkeletalAnimMoveStateSectionTemplateParameters() {
+}
+

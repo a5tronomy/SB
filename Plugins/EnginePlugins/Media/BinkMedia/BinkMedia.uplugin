@@ -1,0 +1,33 @@
+{
+	"FileVersion": 3,
+	"Version": 2,
+	"VersionName": "2.0",
+	"FriendlyName": "Bink Media",
+	"Description": "Implements a media player using Bink.",
+	"Category": "Media Players",
+	"CreatedBy": "Epic Games, Inc.",
+	"CreatedByURL": "http://epicgames.com",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnabledByDefault": false,
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "BinkMediaPlayer",
+			"Type": "Runtime",
+			"LoadingPhase": "PreLoadingScreen",
+			"BlacklistPlatforms": [
+				"HoloLens",
+				"Lumin",
+				"TVOS"
+			],
+			"BlacklistTargets": [
+				"Server"
+			]
+		}
+	]
+}

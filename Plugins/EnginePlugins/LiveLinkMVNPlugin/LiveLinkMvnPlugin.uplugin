@@ -1,0 +1,34 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "2021.1",
+	"FriendlyName": "LiveLinkMvnPlugin",
+	"Description": "MVN Unreal Engine live plug-in is a plug-in that can receive a stream of motion capture data in real-time from Xsens MVN Animate & Analyze. MVN Animate & Analyze is the main software tool for interfacing with the Xsens MVN inertial motion capture suit.",
+	"Category": "Animation",
+	"CreatedBy": "Xsens B.V.",
+	"CreatedByURL": "http://www.xsens.com",
+	"DocsURL": "",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/8665afd60be74d39a08f1410c3dc333b",
+	"SupportURL": "",
+	"EngineVersion": "4.26.0",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "LiveLinkMvnPlugin",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"WhitelistPlatforms": [
+				"Win64"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "LiveLink",
+			"Enabled": true
+		}
+	]
+}

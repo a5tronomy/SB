@@ -1,0 +1,6 @@
+#include "SBStreamingLevelLoadingBarrierVolumeVisualizerComponent.h"
+
+USBStreamingLevelLoadingBarrierVolumeVisualizerComponent::USBStreamingLevelLoadingBarrierVolumeVisualizerComponent(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
+}
+
+

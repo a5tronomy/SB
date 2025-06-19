@@ -1,0 +1,16 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "ESBResourceCacheSkeletalMeshManagerFailedReason.generated.h"
+
+UENUM()
+enum class ESBResourceCacheSkeletalMeshManagerFailedReason {
+    ESBResourceCacheSkeletalMeshManagerFailedReason_Unknown,
+    ESBResourceCacheSkeletalMeshManagerFailedReason_HandleInvalidWhenRequested,
+    ESBResourceCacheSkeletalMeshManagerFailedReason_HandleInactive,
+    ESBResourceCacheSkeletalMeshManagerFailedReason_HandleNotLoading,
+    ESBResourceCacheSkeletalMeshManagerFailedReason_HandleInvalidWhileLoading,
+    ESBResourceCacheSkeletalMeshManagerFailedReason_HandleAssetIsInvalid,
+    ESBResourceCacheSkeletalMeshManagerFailedReason_HandleInvalidAfterCompleteLoading,
+    ESBResourceCacheSkeletalMeshManagerFailedReason_FailedToRequestAsyncClothFabric,
+};
+

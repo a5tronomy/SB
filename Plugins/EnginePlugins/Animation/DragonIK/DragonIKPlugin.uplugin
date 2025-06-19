@@ -1,0 +1,34 @@
+{
+	"FileVersion": 3,
+	"Version": 16,
+	"VersionName": "2.0.1",
+	"FriendlyName": "Dragon.IK - Inverse Kinematics for animals",
+	"Description": "A plugin for providing animal/creature inverse kinematics",
+	"Category": "Animation",
+	"CreatedBy": "Gamasome Interactive LLP",
+	"CreatedByURL": "www.gamasome.com",
+	"DocsURL": "https://docs.google.com/document/d/1TmMj3WeOyUmjUOivZCZFtVUqJmAJdJ4tE2Ln3pOBI1s/edit#",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/3f3985e9eb40414aaabf645791fa4916",
+	"SupportURL": "codehawk64@gmail.com",
+	"EngineVersion": "4.26.0",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "DragonIKPlugin",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault",
+			"WhitelistPlatforms": [
+				"Win64",
+				"Win32",
+				"Linux",
+				"Mac",
+				"XboxOne",
+				"PS4",
+				"Android"
+			]
+		}
+	]
+}
